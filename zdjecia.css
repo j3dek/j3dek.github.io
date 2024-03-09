@@ -38,3 +38,8 @@ body {
     background-color: #555;
     transform: scale(1.1);
 }
+
+.pdf-container {
+    width: 100%;
+    overflow: hidden;
+}
