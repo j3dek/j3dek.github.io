@@ -2,7 +2,15 @@ body {
     background-color: #000;
     color: #fff;
 }
-
+.logo {
+    font-size: 2rem;
+    background-color: #e91377;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .centered-text {
     text-align: center;
     margin-top: 50px;
@@ -11,7 +19,19 @@ body {
 .centered-text h1 {
     font-size: 36px;
 }
-
+.logo {
+    font-size: 2rem;
+    background-color: #e91377;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
 .centered-text h2 {
     font-size: 24px;
 }

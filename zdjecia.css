@@ -33,7 +33,19 @@ body {
     font-weight: bold;
     font-size: 18px;
 }
-
+.logo {
+    font-size: 2rem;
+    background-color: #e91377;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
 .back-button:hover {
     background-color: #555;
     transform: scale(1.1);
