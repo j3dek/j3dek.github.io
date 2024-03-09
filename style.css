@@ -4,6 +4,10 @@ body {
     padding: 0;
     background-color: #000; /* Zmiana koloru tła na czarny */
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 nav {
@@ -21,33 +25,39 @@ nav {
     background-color: #e91377;
     padding: 10px;
     border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .menu li {
-    background-color: #444;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 .menu li a {
     font-size: 18px;
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .menu li a:hover {
-    color: #ffcc00;
-}
-
-.content {
-    text-align: center;
-    padding: 50px;
+    background-color: #fff;
+    color: #000;
 }
