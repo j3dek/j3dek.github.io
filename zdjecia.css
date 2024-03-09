@@ -39,3 +39,8 @@ body {
     transform: scale(1.1);
 }
 
+.back-button.enlarged {
+    font-size: 100px; /* Zwiększamy rozmiar czcionki */
+    padding: 15px 30px; /* Zwiększamy margines wewnętrzny */
+    border-radius: 8px; /* Zwiększamy zaokrąglenie rogów */
+}
