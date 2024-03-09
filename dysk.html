@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html>
-    <head>  
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Przesyłanie plików</title>
-        <link rel="stylesheet" href="dysk.css"></head>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przesyłanie plików</title>
+    <link rel="stylesheet" href="dysk.css">
+</head>
 <body>
+    <div class="logo"><a href="index.html">jedek</a></div>
+    <div class="container">
+    <h2>Wrzuć plik</h2>
+    <form id="upload_form">
+        <input type="file" id="file_input">
+        <input type="button" value="Wrzuć" onclick="uploadFile()">
+    </form>
+    <p id="status"></p>
+</div>
 
-<h2>Wrzuć plik</h2>
-<form id="upload_form">
-  <input type="file" id="file_input">
-  <input type="button" value="Wrzuć" onclick="uploadFile()">
-</form>
+<div class="button-container">
+    <a class="back-button" href="index.html">Wróć</a>
+</div>
 
-<p id="status"></p>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="dysk.js">
-
-</script>
+<script src="dysk.js"></script>
 
 </body>
 </html>
